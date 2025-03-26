@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Bluesky Strikes",
+    "version": "1.0",
+    "description": "Three strikes for Bluesky users before unfollowing.",
+    "icons": {
+        "48": "icons/border-48.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.bsky.app/*"
+            ],
+            "js": [
+                "skeetshoot.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "storage"
+    ]
+}
