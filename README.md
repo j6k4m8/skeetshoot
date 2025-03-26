@@ -4,6 +4,8 @@ A Firefox extension that gives your [BlueSky](https://bsky.app) timeline a "stri
 
 This extension also allows you to add personal notes about users, so you can remember why you added a strike in the first place.
 
+
+
 ## Features
 
 -   Add "strikes" to users in your Bluesky timeline
@@ -19,7 +21,9 @@ This extension also allows you to add personal notes about users, so you can rem
 
 ## How to Use
 
-1. Browse your Bluesky timeline
+![image](https://github.com/user-attachments/assets/88a36ea5-52bd-4704-a42a-53c584bb5e82)
+
+1. Browse BlueSky
 2. When you see a post from a user who posts something you don't like, click the ❌ button to add a strike
 3. If you change your mind, click the ✅ button to remove a strike
 4. ~~After three strikes, the user will be automatically unfollowed~~ HELP IDK HOW TO DO THIS
@@ -29,7 +33,7 @@ This extension also allows you to add personal notes about users, so you can rem
 
 ### Prerequisites
 
--   Firefox Developer Edition or Firefox Browser
+-   Firefox
 -   Git
 
 ### Local Development
@@ -54,6 +58,11 @@ This extension also allows you to add personal notes about users, so you can rem
 
 Apache License 2.0
 
+## Roadmap (Help wanted!)
+
+- [ ] Adapt for Chrome
+- [ ] Support auto-unfollows / auto-blocks
+
 ## Credits
 
-Based on the original [Tweet Strikes](https://github.com/j6k4m8/tweet-strikes) extension by [@j6k4m8](https://github.com/j6k4m8).
+Based on the original [Tweet Strikes](https://github.com/j6k4m8/tweet-strikes) extension also by [@j6k4m8](https://github.com/j6k4m8).
